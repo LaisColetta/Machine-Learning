@@ -8,7 +8,7 @@
 
 ## **Project Overview: Debate Audio Analysis - Donald Trump & Kamala Harris**
 
-This project leverages pre-trained machine learning models to analyze an audio recording of the 2024 U.S. Presidential Debate between candidates Donald Trump and Kamala Harris. The analysis aims to uncover nuances in the debate, such as potential media bias or impartiality.
+This project leverages pre-trained machine learning models to analyze an audio recording of the 2024 U.S. Presidential Debate between candidates Donald Trump and Kamala Harris. The diarisation, transcription and analysis aims to show nuances in the debate, such as potential media bias or impartiality.
 
 ---
 
@@ -70,6 +70,18 @@ Develop a Jupyter Notebook that performs the following tasks on audio files (MP3
 4. **Documentation**: 25%  
 
 *Note: Marks will reflect both results and methodology, as per ATU’s Student Code of Conduct.*  
+
+---
+
+## Repository Structure
+
+--- 
+
+## Bibliography
+
+---
+
+## Tools used
 
 ---
 
