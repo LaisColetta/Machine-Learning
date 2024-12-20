@@ -74,6 +74,11 @@ Develop a Jupyter Notebook that performs the following tasks on audio files (MP3
 ---
 
 ## Repository Structure
+Audio Files
+
+Testing Files
+Project_part1.ipynb
+
 
 
 --- 
