@@ -1,0 +1,17 @@
+pydub
+pyannote.audio
+whisper
+soundfile
+librosa
+numpy
+transformers
+nltk
+wordcloud
+matplotlib
+textblob
+speechbrain
+torchaudio
+requests
+nemo-toolkit
+torch
+vosk
