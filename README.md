@@ -6,7 +6,7 @@
 
 ## Repository Overview
 
-This repository contains the final project for the Machine Learning Module, which was divided into two parts. Below is the structure of the repository for easy navigation and understanding.
+This repository contains the final project for the Machine Learning Module for the Higher Diploma in Data Science (Data Analytics) at ATU college. This project was split into Project_part1 and Project_part2. 
 
 > **Note:** Due to disk capacity limitations, the analysis performed in this notebook was restricted, as the execution time of the code was significantly long.
 
@@ -82,8 +82,6 @@ Follow these steps to set up your environment and execute the notebooks correctl
 
 This part of the project utilizes pre-trained machine learning models to analyze an audio recording of the 2024 U.S. Presidential Debate between candidates Donald Trump and Kamala Harris. The analysis involves speaker diarization, transcription, sentiment analysis, and the analysis of the participants’ speech patterns.
 
-The goal is to identify distinct speakers, extract insights, and perform sentiment analysis using a large language model (LLM).
-
 ---
 
 ### **Objectives**
@@ -98,13 +96,7 @@ The goal is to develop a Jupyter Notebook that performs the following tasks on a
 2. **Speech-to-Text Analysis**:  
    - Generate a complete transcript of the audio, with speaker identification.
    - Perform a word count analysis for each speaker and include frequency analysis on specific words.
-     Example:
-     ```
-     [Speaker 1] Hi, how are you today?
-     [Speaker 2] I’m good, and you?
-     [Speaker 1] Good, thanks. How about you?
-     ```
-
+     
 3. **Large Language Model (LLM) Analysis**:  
    - Use the annotated transcript to query a large language model (LLM) for further insights such as:
      - Identifying speaker affiliations (e.g., political leanings).
