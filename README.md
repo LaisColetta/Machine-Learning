@@ -8,8 +8,6 @@
 
 This repository contains the final project for the Machine Learning Module for the Higher Diploma in Data Science (Data Analytics) at ATU college. This project was split into Project_part1 and Project_part2. 
 
-> **Note:** Due to disk capacity limitations, the analysis performed in this notebook was restricted, as the execution time of the code was significantly long.
-
 ---
 
 ### **Research & Bibliography**
@@ -78,6 +76,9 @@ Follow these steps to set up your environment and execute the notebooks correctl
 
 # Project Part 1: Debate Audio Analysis - Donald Trump & Kamala Harris
 
+> **Note:** Due to disk capacity limitations, the analysis performed in this notebook was restricted, as the execution time of the code was significantly long.
+
+
 ## **Overview**
 
 This part of the project utilizes pre-trained machine learning models to analyze an audio recording of the 2024 U.S. Presidential Debate between candidates Donald Trump and Kamala Harris. The analysis involves speaker diarization, transcription, sentiment analysis, and the analysis of the participants’ speech patterns.
@@ -116,7 +117,7 @@ This folder includes the following Jupyter Notebooks:
 
 ### **Project_part1.ipynb**
 
-> Note: For detailed information about the models selected in this notebook, please refer to the **Testing Files** folder, where I compare various models and choose the ones with the best performance.
+> Note: For detailed information about the models selected in this notebook, please refer to the **Testing Files** folder, where I compared various models and sleected the ones with the best performance.
 
 This Jupyter Notebook outlines the steps for analyzing the Trump and Harris debate, including tasks like speaker diarization, speech-to-text conversion, and sentiment analysis through a large language model.
 
@@ -125,6 +126,8 @@ This Jupyter Notebook outlines the steps for analyzing the Trump and Harris deba
 ## Overview: 
 ### **Objective**
 ## **Repository Structure**
+- Data pre-processing
+
 
 ---
 # END
