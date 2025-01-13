@@ -15,3 +15,5 @@ requests
 nemo-toolkit
 torch
 vosk
+tensorflow
+keras

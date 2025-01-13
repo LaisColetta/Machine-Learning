@@ -105,7 +105,7 @@ The goal is to develop a Jupyter Notebook that performs the following tasks on a
 
 ---
 
-## Repository Structure
+## Project 1 repository Structure
 
 ### **Audio Files Folder**
 This folder contains the MP3 and WAV files used for testing. Files such as **TrumpHarrisDebate.mp3** and corresponding WAV files are included.
@@ -122,12 +122,42 @@ This folder includes the following Jupyter Notebooks:
 This Jupyter Notebook outlines the steps for analyzing the Trump and Harris debate, including tasks like speaker diarization, speech-to-text conversion, and sentiment analysis through a large language model.
 
 
-# Project Part 2 >>> TO BE FINISHED
+# Project Part 2 
 ## Overview: 
-### **Objective**
-## **Repository Structure**
-- Data pre-processing
 
+This project goal is to analyze a recorded dataset of seal calls and explore whether it is possible to discriminate between different types of seal calls. 
+
+For the Machine Learning model, the dataset is built of spectrograms npz files of the seal calls extracted from wav files. 
+
+### **Objective**
+The goal is to develop a machine learning model that performs the following tasks for audio classification following the steps:
+
+1. **Audio Pre-processing**:  
+   - Load audio files and annotations from `.wav` and `.txt` files.
+   - Extract audio segments based on annotations.
+   - Generate spectrograms from the audio segments.
+   - Pad or crop spectrograms to standardize their dimensions.
+   - Create ‘No Call’ segments for silent intervals in the audio.
+   - Categorize annotations into distinct classes based on their names.
+
+2. **Model Development and Training**:  
+   - Build and compile a Convolutional Neural Network (CNN) for classifying spectrograms.
+   - Train the CNN model using **augmented** training data.
+   - Experiment **with hyperparameters** to test different performances.
+   - Utilize techniques like **EarlyStopping** to avoid overfitting and **fine tuning** to to improve performance on those underrepresented classes..
+
+3. **Test other Transfer Learning models**:  
+   - Using the pre-trained transfer learning models **EfficientNetB4** and **ResNet50** and evaluate the performance.
+
+---
+
+## Project 2 jupyter notebook structure
+
+### **Spectrogram Files Folder**
+This folder contains preprocessed npz 2D array spectrograms used for training. Files are categorised and sorted by name.
+
+### **Project 2 Jupyter notebook**
+This file contains data pre preprocessing for dataset creation and model training.
 
 ---
 # END
